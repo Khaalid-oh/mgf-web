@@ -4,7 +4,6 @@ import image2 from "../words/image-2.png";
 import CircleSVG from "../words/CircleSVG";
 import NestSVG from "../words/NestSVG";
 import Dotted from  "../words/Dotted.png"
-import DoodleSVG from "../words/DoodleSVG";
 
 function SecondSection() {
   return (
@@ -28,7 +27,7 @@ function SecondSection() {
         </div>
         <div className="flex flex-col gap-4 mt-12">
           <span className="font-bold text-3xl">Introduction</span>
-          <p className="w-[31.5rem] font-normal">
+          <p className="w-[31.5rem]">
             In Saudi Arabia, rare diseases remain a largely unfamiliar concept.
             Many of the population have never heard of them, let alone
             understand the implications.​ The country is not well-equipped to
@@ -41,28 +40,23 @@ function SecondSection() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-8 w-[64.4375rem]">
-        <p className="w-[80%]">
+      <div className="flex flex-col gap-4 w-[64.4375rem]">
+        <p className="w-[90%]">
           The medical community in Saudi Arabia is still in the early stages of
           understanding rare diseases. There are no reliable statistics on the
           prevalence of these conditions.​ The lack of knowledge and resources
           makes it difficult to diagnose and treat patients, leaving many of
           them with no answers.​
         </p>
-        <p className="w-[80%]">
+        <p className="w-[90%]">
           The government is beginning to take steps to improve the situation,
           but much remains to be done.​ Despite the challenges, there is hope
           that the situation will improve. The government has begun to invest in
           research and awareness campaigns to raise awareness of rare diseases.​
         </p>
-        <button className="px-6 py-2 rounded-md text-white w-[8.5625rem]  bg-green-700 hover:bg-green-600 transition-all">
+        <button className="px-6 py-2 rounded-md text-white w-[8.5625rem]  bg-green-700 hover:bg-green-600 transition-all mt-4">
           Read more
         </button>
-      </div>
-      <div className="flex justify-center items-center gap-4 mt-8">
-        <span className="text-3xl">love</span>
-        <DoodleSVG/>
-        <span className="text-3xl">found</span>
       </div>
     </div>
   );

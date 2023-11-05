@@ -3,7 +3,7 @@ import Image from 'next/image';
 import image from '../words/Image-1.png'
 function FirstSection() {
   return (
-    <div className="flex flex-col items-center bg-green-100 rounded-lg h-[26.6875rem] w-[77.5rem] gap-8 mt-4">
+    <div className="flex flex-col items-center bg-green-100 rounded-lg h-[26.6875rem] w-[77.5rem] gap-6 mt-6">
       <p className="font-bold text-3xl w-[48.375rem] mt-[2.94rem]">
         Wolfram Syndrome, also known as DIDMOAD, is an inherited genetic
         disorder in most cases it is caused by a mutation of the WFS1 gene.
@@ -19,7 +19,7 @@ function FirstSection() {
             Read More
           </button>
         </div>
-        <div className="border-2 border-green-700 rounded-md w-[21.4735rem] h-[19.375rem] relative">
+        <div className="border-2 border-green-700 rounded-md w-[21.4735rem] h-[19.375rem] relative mt-4">
           <Image className='absolute left-[1.19rem] bottom-[1.06rem]' src={image} height={310} width={343} alt='Five curious happy kids'/>
         </div>
       </div>
