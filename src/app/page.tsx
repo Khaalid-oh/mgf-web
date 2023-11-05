@@ -4,6 +4,8 @@ import React from 'react'
 import Navbar from './components/paragraphs/Navbar'
 import FirstSection from './components/paragraphs/FirstSection'
 import Hero from './components/paragraphs/Hero'
+import SecondSection from './components/paragraphs/SecondSection'
+import Footer from './components/paragraphs/Footer'
 
 function page() {
   return (
@@ -11,6 +13,8 @@ function page() {
       <Navbar/>
       <Hero/>
       <FirstSection/>
+      <SecondSection/>
+      <Footer/>
     </div>
   )
 }
