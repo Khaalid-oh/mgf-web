@@ -2,13 +2,15 @@
 
 import React from 'react'
 import Navbar from './components/paragraphs/Navbar'
-import HeroRight from './components/sentences/HeroRight'
+import FirstSection from './components/paragraphs/FirstSection'
+import Hero from './components/paragraphs/Hero'
 
 function page() {
   return (
-    <div className='font-[Exo_2] flex flex-col gap-4 items-center justify-center w-[90rem] mx-auto bg-white'>
+    <div className='font-[Exo_2] flex flex-col gap-4 items-center justify-start w-[90rem] h-[173.75rem] bg-white'>
       <Navbar/>
-      <HeroRight/>
+      <Hero/>
+      <FirstSection/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../words/Logo'
-import NavItems from '../sentences/NavItems'
+import NavItems from './NavItems'
 
 function Navbar() {
   return (

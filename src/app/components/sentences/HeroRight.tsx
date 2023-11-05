@@ -12,7 +12,7 @@ function HeroRight() {
       <h1 className="w-[70%] text-[2.5rem] leading-[2.8125rem]">
         We decided to carry the flag for rare diseases in Saudi Arabia
       </h1>
-      <div className='absolute -top-6'>
+      <div className='block absolute -top-6'>
       <HeroSVG/>
       </div>
     </div>
