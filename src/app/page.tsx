@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Navbar from './components/paragraphs/Navbar'
 import HeroRight from './components/sentences/HeroRight'
