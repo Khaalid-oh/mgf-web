@@ -3,7 +3,6 @@ import HeroSVG from '../words/HeroSVG';
 
 
 
-
 function HeroRight() {
   return (
     <div className=" relative flex flex-col w-[66.625rem] gap-[1.06rem]">
